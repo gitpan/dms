@@ -1,0 +1,10 @@
+ChangeLog
+INSTALL
+MANIFEST
+Makefile.PL
+README
+dms.in
+etc/dms.conf
+lib/Document/Manager.pm
+scripts/dms
+t/test.t
