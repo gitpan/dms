@@ -1,0 +1,48 @@
+# Input file for `scriptmaker` (if desired)
+program name                dms
+program version             1.02
+program oneliner            oneliner description
+program description         longer description
+program arg_type            [ options ]
+program style               default
+
+parent name               
+parent version            
+parent release_date       
+
+author name                 Your Name Here
+author email                you at domain.org
+author homepage             http://www.domain.org/
+
+do_preamble                 0
+do_config_file              1
+do_docs                     1
+do_options                  1
+do_debug                    1
+do_comments                 1
+
+related foobar              http://www.foobar.org
+
+feature file_ops            Useful file system routines
+feature templates           Template toolkit support
+#feature database            Database (DBI) support
+#feature logfile             Logfile parsing support
+#feature xml                 XML parsing support
+#feature gd                  GD support
+#feature test                Regression test
+#feature lwp                 Web robot functionality
+#feature filter              Text filter support
+#feature svg                 SVG generation/parsing support
+#feature mod_perl            mod_perl/Apache support
+#feature cgi                 CGI application support
+#feature validation          Text input data validation
+#feature datafile            Datafile parsing/formatting support
+
+option boolean version|V     Prints the version and exits
+option boolean help|h        Prints a brief help message
+option boolean helplong|H    Prints a long help message
+option boolean man           Prints a manual page (detailed help)
+option integer debug|D       Prints debug messages
+
+
+

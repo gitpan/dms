@@ -1,0 +1,67 @@
+#!/usr/local/bin/perl
+
+use strict;
+
+use vars qw($VERSION);
+$VERSION = '1.02';
+
+
+###########################################################
+# 
+# Remember to insert the actual code from your script
+#
+###########################################################
+
+
+# Below is the stub of documentation for your script. You better edit it!
+
+=pod
+
+=head1 NAME
+
+dms - Perl script for blah blah blah
+
+=head1 SYNOPSIS
+
+  blah blah blah
+
+=head1 DESCRIPTION
+
+ Describe in detail how to use the script
+
+=head1 PREREQUISITES
+
+This script requires the C<strict> module.  It also requires
+C<Mail::Send 1.08>.
+
+=head1 COREQUISITES
+
+CGI
+
+=head1 OSNAMES
+
+any
+
+=head1 SCRIPT CATEGORIES
+
+CPAN/Administrative
+Fun/Educational
+
+=head1 AUTHOR
+
+ Your name, with your email address
+
+=head1 SEE ALSO
+
+perl(1).
+
+=head1 COPYRIGHT
+
+ dms is Copyright (c) 2004, by you. 
+ All rights reserved. You may distribute this code under the terms 
+ of either the GNU General Public License or the Artistic License, 
+ as specified in the Perl README file.
+
+=cut
+
+
